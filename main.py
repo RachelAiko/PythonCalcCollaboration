@@ -9,7 +9,7 @@ def subtract(num_One, num_Two):
     pass
 
 def multiply(num_One, num_Two):
-    #TODO: Write a function to multiply two numbers together and return the value
+    return num_One * num_Two
     pass
 
 def divide(dividend, divisor):
