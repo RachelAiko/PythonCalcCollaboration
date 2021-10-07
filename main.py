@@ -17,8 +17,11 @@ def divide(dividend, divisor):
     pass
 
 def sum(nums: list):
-    #TODO: Write a function that sums up the values in a list and return the resulting value
-    pass
+    total = 0
+    for number in nums:
+        total += number
+    return total
+
 
 
 if __name__ == '__main__':
