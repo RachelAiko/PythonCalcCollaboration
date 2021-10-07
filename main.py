@@ -2,6 +2,7 @@
 
 def add(num_One, num_Two):
     #TODO: Write a function to add two numbers together and return the value
+    return num_One + num_Two
     pass
 
 def subtract(num_One, num_Two):
