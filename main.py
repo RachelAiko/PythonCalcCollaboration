@@ -22,8 +22,6 @@ def divide(dividend, divisor):
 
 
 def sum(nums: list):
-    # TODO: Write a function that sums up the values in a list and return the resulting value
-    pass
 
     total = 0
     for number in nums:
