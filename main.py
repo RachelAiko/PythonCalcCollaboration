@@ -1,6 +1,9 @@
-def add(num_One, num_Two):
+"""
+Colabrative Calculator made by FGCU's Software Engineering Club to demo collaboration using Github
+"""
 
-    #TODO: Write a function to add two numbers together and return the value
+
+def add(num_One, num_Two):
     return num_One + num_Two
 
 
@@ -9,9 +12,7 @@ def subtract(num_One, num_Two):
 
 
 def multiply(num_One, num_Two):
-    # TODO: Write a function to multiply two numbers together and return the value
     return num_One * num_Two
-
 
 
 def divide(dividend, divisor):
@@ -19,13 +20,10 @@ def divide(dividend, divisor):
 
 
 def sum(nums: list):
-
     total = 0
     for number in nums:
         total += number
     return total
-
-
 
 
 if __name__ == '__main__':
