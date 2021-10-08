@@ -6,8 +6,7 @@ def add(num_One, num_Two):
 
 
 def subtract(num_One, num_Two):
-    # TODO: Write a function to subtract num_Two from num_One
-    pass
+    return num_One - num_Two
 
 
 def multiply(num_One, num_Two):
