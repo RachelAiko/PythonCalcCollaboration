@@ -33,4 +33,4 @@ if __name__ == '__main__':
     print("The multiplication of", value_one, "and", value_two, "is:", multiply(value_one, value_two))
     print("The division of", value_one, "by", value_two, "is:", divide(value_one, value_two))
     print("The sum of the list", values, "is:", sum(values))
-    print("The average of the list", values, "is:", average(values))
+    print("The average of the list ", values, "is:", average(values))
