@@ -18,14 +18,9 @@ def divide(dividend, divisor):
     return dividend // divisor
 
 
-def sum(nums: list):
-
-    total = 0
-    for number in nums:
-        total += number
-    return total
-
-
+def average(nums: list):
+    total = sum(nums)
+    return total / len(nums)
 
 
 if __name__ == '__main__':
@@ -37,4 +32,5 @@ if __name__ == '__main__':
     print("The subtraction of", value_one, "by", value_two, "is:", subtract(value_one, value_two))
     print("The multiplication of", value_one, "and", value_two, "is:", multiply(value_one, value_two))
     print("The division of", value_one, "by", value_two, "is:", divide(value_one, value_two))
-    print("The division of the list", values, "is:", sum(values))
+    print("The sum of the list", values, "is:", sum(values))
+    print("The average of the list", values, "is:", average(values))
