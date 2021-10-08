@@ -18,7 +18,6 @@ def multiply(num_One, num_Two):
 
 def divide(dividend, divisor):
     return dividend // divisor
-    pass
 
 
 def sum(nums: list):
