@@ -2,12 +2,10 @@ def add(num_One, num_Two):
 
     #TODO: Write a function to add two numbers together and return the value
     return num_One + num_Two
-    pass
 
 
 def subtract(num_One, num_Two):
-    # TODO: Write a function to subtract num_Two from num_One
-    pass
+    return num_One - num_Two
 
 
 def multiply(num_One, num_Two):
@@ -18,12 +16,9 @@ def multiply(num_One, num_Two):
 
 def divide(dividend, divisor):
     return dividend // divisor
-    pass
 
 
 def sum(nums: list):
-    # TODO: Write a function that sums up the values in a list and return the resulting value
-    pass
 
     total = 0
     for number in nums:
